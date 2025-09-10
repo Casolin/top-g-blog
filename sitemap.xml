@@ -9,9 +9,19 @@
 
 <url>
   <loc>https://top-g-blog.vercel.app/</loc>
-  <lastmod>2025-09-09T10:01:49+00:00</lastmod>
+  <lastmod>2025-09-10T16:13:20+00:00</lastmod>
+  <priority>1.00</priority>
 </url>
-
+<url>
+  <loc>https://top-g-blog.vercel.app/mindset.html</loc>
+  <lastmod>2025-09-10T16:13:20+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://top-g-blog.vercel.app/index.html</loc>
+  <lastmod>2025-09-10T16:13:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
 
 
 </urlset>
