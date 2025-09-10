@@ -227,6 +227,7 @@ hr {
   flex-direction: column;
   align-items: center;
   width: 95%;
+  font-size: 0.9em;
   margin: 6vh auto;
 }
 
