@@ -43,10 +43,17 @@ nav #menu {
   display: none;
 }
 
-a,
-#tate a {
+header a,
+footer a,
+aside a {
   text-decoration: none;
   color: rgb(91, 91, 91);
+  transition: all 0.3s;
+}
+
+article a {
+  text-decoration: none;
+  color: orange;
   transition: all 0.3s;
 }
 
@@ -58,7 +65,8 @@ footer a:hover {
   transform: scale(1.05);
 }
 
-#tate a:hover {
+#tate a:hover,
+article a:hover {
   text-decoration: underline;
   text-decoration-color: rgb(212, 212, 212);
   text-underline-offset: 4px;
@@ -93,6 +101,11 @@ h1 {
   background-size: cover;
   height: 80vh;
   padding: 120px 20px;
+}
+
+.hero a {
+  text-decoration: none;
+  transition: all 0.3s;
 }
 
 .hero h1 {
