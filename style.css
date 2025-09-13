@@ -10,7 +10,7 @@ html {
 
 body {
   font-family: Inter;
-  background-color: #181818;
+  background-color: white;
 }
 
 h1,
@@ -24,7 +24,7 @@ header {
   justify-content: space-between;
   align-items: center;
   background-color: rgb(31, 31, 31);
-  padding: 20px;
+  padding: 5px 60px;
   font-family: Inter;
   position: relative;
 }
@@ -147,7 +147,8 @@ aside {
 
 #articles {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(500px, 500px));
+  justify-content: center;
   gap: 60px;
 }
 
@@ -174,7 +175,8 @@ aside {
 
 .article img {
   width: 100%;
-  object-fit: contain;
+  height: 250px;
+  object-fit: cover;
   transition: all 0.3s;
 }
 
@@ -239,15 +241,39 @@ hr {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 95%;
+  width: 60%;
   font-size: 0.9em;
   margin: 6vh auto;
 }
 
+.blog-post h1,
+.blog-post h2 {
+  color: black;
+  text-shadow: none;
+  text-decoration: underline;
+}
+
+.blog-post h1 {
+  margin: 20px;
+}
+
+.blog-post h2 {
+  font-size: 2em;
+}
+
 .blog-post img {
-  width: 80%;
-  box-shadow: 0px 0px 6px #d4af37;
-  border-radius: 10px;
+  width: 60%;
+  height: 400px;
+  margin: 60px;
+  object-fit: cover;
+}
+
+.blog-post p {
+  font-family: Roboto;
+  color: black;
+  font-size: 2em;
+  line-height: 1.8em;
+  margin-bottom: 30px;
 }
 
 .quotes {
@@ -340,12 +366,14 @@ aside a:hover {
     width: 95%;
   }
 
+  .blog-post {
+    width: 90%;
+  }
+
   .blog-post img {
-    width: 100%;
+    width: 90%;
     height: 300px;
     object-fit: cover;
-    box-shadow: 0px 0px 6px #d4af37;
-    border-radius: 10px;
   }
 
   .blog-post h1 {
