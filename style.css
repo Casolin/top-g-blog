@@ -142,7 +142,8 @@ aside {
   gap: 30px;
   padding: 30px;
   margin-left: 20px;
-  background-color: rgb(31, 31, 31);
+  background-color: white;
+  box-shadow: 0 0 15px gray;
 }
 
 #articles {
@@ -161,8 +162,7 @@ aside {
   font-size: 1.2em;
   background: white;
   color: #1a1a1a;
-  box-shadow: 0 0 15px rgba(212, 175, 55, 0.6);
-  border: 2px solid #d4af37;
+  box-shadow: 0 0 15px gray;
   transition: box-shadow 0.3s ease, border-color 0.3s ease;
 }
 
@@ -207,7 +207,7 @@ aside {
 }
 
 aside h2 {
-  color: white;
+  color: #b8860b;
   font-family: Montserrat;
   font-size: 1em;
 }
