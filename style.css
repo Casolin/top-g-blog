@@ -66,10 +66,12 @@ article a {
 
 nav a:hover,
 footer a:hover {
-  text-decoration: underline;
-  text-decoration-color: rgb(212, 212, 212);
+  color: var(--main-color);
   text-underline-offset: 4px;
-  transform: scale(1.05);
+}
+
+.active {
+  color: var(--main-color);
 }
 
 #tate a:hover,
