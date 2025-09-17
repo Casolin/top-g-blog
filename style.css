@@ -306,7 +306,7 @@ hr {
 .blog-post h2 {
   color: black;
   text-decoration: underline; /* Remove default underline */
-  text-underline-offset: 7px;
+  text-underline-offset: 10px;
   text-shadow: none;
 }
 
