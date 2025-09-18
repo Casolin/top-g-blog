@@ -319,8 +319,8 @@ hr {
 }
 
 .blog-post img {
-  width: 60%;
-  height: 400px;
+  width: 65%;
+  height: 500px;
   margin: 60px;
   object-fit: cover;
 }
@@ -352,6 +352,15 @@ em {
 
 aside a:hover {
   transform: scale(1.05);
+}
+
+ul {
+  color: black;
+  padding: 0 6%;
+}
+
+ul li {
+  font-size: 1.8em;
 }
 
 @media screen and (max-width: 768px) {
