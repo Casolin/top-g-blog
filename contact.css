@@ -54,7 +54,7 @@ textarea {
 
 input::placeholder,
 textarea::placeholder {
-  color: rgb(36, 36, 36);
+  color: rgb(156, 156, 156);
   font-weight: 500;
 }
 
