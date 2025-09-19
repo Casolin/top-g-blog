@@ -1,0 +1,99 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+  width: 60%;
+  margin-bottom: 10%;
+}
+
+.container form div {
+  display: flex;
+  width: 100%;
+  gap: 10px;
+}
+
+span {
+  color: var(--main-color);
+}
+
+input {
+  padding: 10px;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+button {
+  cursor: pointer;
+}
+
+textarea {
+  padding: 15px;
+  height: 250px;
+  resize: none;
+}
+
+input,
+textarea {
+  background: transparent;
+  border-radius: 10px;
+  border: 1px solid var(--main-color);
+  color: rgb(36, 36, 36);
+  font-size: 1.6em;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: rgb(36, 36, 36);
+  font-weight: 500;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+}
+
+.row p {
+  padding-left: 2%;
+  color: red;
+  font-size: 1.2em;
+}
+
+button {
+  align-self: center;
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 5em;
+  }
+
+  .container {
+    padding: 0;
+  }
+
+  .container form {
+    width: 100%;
+  }
+
+  .container form div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  button {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+}
